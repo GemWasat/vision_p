@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{baa43cca-fe5d-4f0f-83fb-982a2080d96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Doc">
+      <UniqueIdentifier>{b4c550fb-8794-4a18-8e3b-fb82747ad65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Frm">
+      <UniqueIdentifier>{7052c9ca-5fb8-4179-a125-a3156c4ee7ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{c09d8f09-2534-4865-b66f-9f43b9db881b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dlg">
+      <UniqueIdentifier>{44573f36-0a93-45b7-a9ea-c93773a3693f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.ect">
+      <UniqueIdentifier>{450c53a2-b795-4250-ab4e-f0390b88f3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\Main">
+      <UniqueIdentifier>{f5032d7e-0703-435d-a3a2-aab04f4ab7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Mgr">
+      <UniqueIdentifier>{7cbc0e82-d9e4-4f56-993c-54e8dcbecf14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Mgr\tool">
+      <UniqueIdentifier>{c45b72fa-758f-4c6c-9479-e9e1605657c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Mgr\Frm">
+      <UniqueIdentifier>{4d450904-2f62-4b3b-aad2-b9825d8e87fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\cntrlform">
+      <UniqueIdentifier>{7c12cfa1-c8a3-49e4-9274-b49db14f9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\resform">
+      <UniqueIdentifier>{2746c930-5770-4dc0-a2ef-0a30d5a1fb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\listform">
+      <UniqueIdentifier>{40ff041e-9952-446c-a7ef-7f3addf02399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\serform">
+      <UniqueIdentifier>{23a79584-e693-4e95-978c-e404f49fff59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.PJH">
+      <UniqueIdentifier>{7b99c7e9-14f6-4992-b8ed-a13fb331686c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.PJH\Socket">
+      <UniqueIdentifier>{7aec1641-778b-4022-9696-5c9b599f8680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.AWS">
+      <UniqueIdentifier>{fe6d6810-14fa-4502-b502-5523fed72cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Tread">
+      <UniqueIdentifier>{f77cb4f9-164e-4bfc-9651-d96c9c03e5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dlg\Colortest">
+      <UniqueIdentifier>{6469705d-fb23-403c-bec1-925e614e67e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.Frm</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTool.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainToolDoc.h">
+      <Filter>01.Doc</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99.ect</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>99.ect</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.ect</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.ect</Filter>
+    </ClInclude>
+    <ClInclude Include="MainToolView.h">
+      <Filter>03.View\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="inference.h">
+      <Filter>99.ect</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolManager.h">
+      <Filter>05.Mgr\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMgr.h">
+      <Filter>05.Mgr\Frm</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CntrlForm.h">
+      <Filter>03.View\cntrlform</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultForm.h">
+      <Filter>03.View\resform</Filter>
+    </ClInclude>
+    <ClInclude Include="ListForm.h">
+      <Filter>03.View\listform</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerForm.h">
+      <Filter>03.View\serform</Filter>
+    </ClInclude>
+    <ClInclude Include="CSocketClient.h">
+      <Filter>06.PJH\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>99.ect</Filter>
+    </ClInclude>
+    <ClInclude Include="AWS.h">
+      <Filter>07.AWS</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotInfo.h">
+      <Filter>06.PJH</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectTread.h">
+      <Filter>08.Tread</Filter>
+    </ClInclude>
+    <ClInclude Include="ColortTestDlg.h">
+      <Filter>04.Dlg\Colortest</Filter>
+    </ClInclude>
+    <ClInclude Include="DataInquiryDlg.h">
+      <Filter>04.Dlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.Frm</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTool.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainToolDoc.cpp">
+      <Filter>01.Doc</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>99.ect</Filter>
+    </ClCompile>
+    <ClCompile Include="MainToolView.cpp">
+      <Filter>03.View\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="inference.cpp">
+      <Filter>99.ect</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolManager.cpp">
+      <Filter>05.Mgr\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameMgr.cpp">
+      <Filter>05.Mgr\Frm</Filter>
+    </ClCompile>
+    <ClCompile Include="CntrlForm.cpp">
+      <Filter>03.View\cntrlform</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultForm.cpp">
+      <Filter>03.View\resform</Filter>
+    </ClCompile>
+    <ClCompile Include="ListForm.cpp">
+      <Filter>03.View\listform</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerForm.cpp">
+      <Filter>03.View\serform</Filter>
+    </ClCompile>
+    <ClCompile Include="CSocketClient.cpp">
+      <Filter>06.PJH\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="AWS.cpp">
+      <Filter>07.AWS</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectTread.cpp">
+      <Filter>08.Tread</Filter>
+    </ClCompile>
+    <ClCompile Include="ColortTestDlg.cpp">
+      <Filter>04.Dlg\Colortest</Filter>
+    </ClCompile>
+    <ClCompile Include="DataInquiryDlg.cpp">
+      <Filter>04.Dlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainTool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MainTool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MainToolDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\MainTool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

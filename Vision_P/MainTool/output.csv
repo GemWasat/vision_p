@@ -1,0 +1,16 @@
+ID,Color,Faulty,Date,URL
+20,green,OK,2024/6/8/13/52/30,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/20.jpg
+19,yellow,OK,2024/6/8/11/45/30,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/19.jpg
+18,red,OK,2024/6/8/11/20/30,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/18.jpg
+14,green,OK,2024/6/6/11/44/30,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/14.jpg
+13,yellow,OK,2024/6/6/11/40/30,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/13.jpg
+12,red,OK,2024/6/6/10/21/30,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/12.jpg
+11,green,OK,2024/6/5/14/30/39,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/11.jpg
+10,yellow,OK,2024/6/5/14/30/26,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/10.jpg
+9,fail,Faulty,2024/6/5/14/30/19,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/9.jpg
+8,green,OK,2024/6/5/14/30/6,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/8.jpg
+7,fail,Faulty,2024/6/5/14/29/57,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/7.jpg
+6,green,OK,2024/6/5/14/29/43,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/6.jpg
+5,yellow,OK,2024/6/5/14/29/28,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/5.jpg
+4,red,OK,2024/6/5/14/29/17,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/4.jpg
+3,green,OK,2024/6/5/14/29/3,https://box-s3-buket.s3.ap-northeast-2.amazonaws.com/3.jpg
